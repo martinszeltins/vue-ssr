@@ -2,7 +2,8 @@
     <div>
         <RouterLink to="/about">About</RouterLink>
         
-        <h1>Index <button @click="times++">clicked {{ times }} times</button></h1>
+        <h1>Index</h1>
+        <button @click="times++">clicked {{ times }} times</button>
     </div>
 </template>
 
